@@ -7,6 +7,11 @@ body {
   font-family: Arial, sans-serif;
 }
 
+img {
+  user-select: none;
+  pointer-events: none;
+}
+
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -59,7 +64,7 @@ header {
   cursor: pointer;
   font-weight: 600;
   transition: background-color 500ms;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -234,7 +239,7 @@ header {
 .banner-information .banner-seocondary .banner-description {
   max-width: 532px;
   margin-top: 20px;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 22.5px;
@@ -382,7 +387,7 @@ header {
 }
 
 .about-texts .about-description p {
-  font-family: Open Sans, "sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 22.5px;
@@ -398,7 +403,7 @@ header {
   padding: 15px 44px;
   border-radius: 5px;
   border: 1px solid black;
-  font-family: Open Sans, "sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -425,7 +430,7 @@ header {
 .polimichevina-description {
   max-width: 631px;
   margin-top: 20px;
-  font-family: Open Sans, "sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 22.5px;
@@ -671,4 +676,70 @@ header {
   font-size: 22px;
   line-height: 25.78px;
   text-align: start;
+}
+
+#penopoliuretano {
+  width: 100%;
+  margin-top: 124px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+}
+
+.penopoliuretano-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 99px;
+}
+
+.penopoliuretano-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.penopoliuretano-information {
+  display: flex;
+  flex-direction: column;
+  max-width: 760px;
+}
+
+.penopoliuretano-description {
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22.5px;
+  max-width: 592px;
+}
+
+.penopoliuretano-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 39px;
+}
+
+.penopoliuretano-list .penopoliuretano-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 360px;
+  height: auto;
+}
+
+.penopoliuretano-list .penopoliuretano-list-item b {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25.78px;
+}
+
+.penopoliuretano-list .penopoliuretano-list-item p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22.5px;
 }
