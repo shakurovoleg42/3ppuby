@@ -1,16 +1,30 @@
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
 h1 {
-  font-family: Roboto;
+  font-family: Roboto, "sans-serif";
   font-weight: 500;
   font-size: 56px;
   line-height: 65.63px;
   letter-spacing: 0%;
   color: #ffffff;
   margin: 0 0 20px 0;
+}
+
+h2 {
+  font-family: Roboto, "sans-serif";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50.88px;
+  letter-spacing: 0%;
+  color: #000000;
+  margin: 0;
 }
 
 a {
@@ -65,7 +79,7 @@ header {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba(255, 255, 255, 0.102);
-  padding: 25px 32px;
+  padding: 25px 0 25px 32px;
 }
 
 .top_header {
@@ -92,12 +106,8 @@ header {
   gap: 40px;
 }
 
-.layout {
-  max-width: 1437px;
-  margin: 0 auto;
-}
-
 .layout--header {
+  width: 99.2vw;
   display: flex;
   flex-direction: column;
   background-image: url("../images/backgrounds/header-bg.png");
@@ -106,6 +116,7 @@ header {
   color: #ffffff;
   min-height: 764px;
   text-decoration: none;
+  margin: 0 auto;
 }
 
 .top_header .first_block .slogan_text {
@@ -204,7 +215,7 @@ header {
 
 .banner-information {
   width: auto;
-  padding: 84px 140px 84px 140px;
+  padding: 84px 0 84px 140px;
   display: flex;
   flex-direction: column;
 }
@@ -349,4 +360,179 @@ header {
   .banner-information .banner-seocondary .banner-description {
     max-width: 100%;
   }
+}
+
+#about {
+  margin-top: 85px;
+  width: 100%;
+  max-width: 1128px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 120px;
+  padding: 0 40px;
+}
+
+.about-texts {
+  width: 100%;
+  max-width: 707px;
+}
+
+.about-texts .about-description p {
+  font-family: Open Sans, "sans-serif";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22.5px;
+  color: #000;
+}
+
+.about-texts .about-button {
+  margin-top: 34px;
+}
+
+.about-texts .about-button button {
+  background-color: #ffffff;
+  padding: 15px 44px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-family: Open Sans, "sans-serif";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  transition: background-color 300ms;
+}
+
+.about-texts .about-button button:hover {
+  background-color: #000;
+  color: #ffffff;
+  transition: background-color 300ms;
+}
+
+#polimichevina {
+  margin-top: 124px;
+  display: flex;
+  flex-direction: column;
+}
+
+.polimichevina-title {
+  max-width: 900px;
+}
+
+.polimichevina-description {
+  max-width: 631px;
+  margin-top: 20px;
+  font-family: Open Sans, "sans-serif";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22.5px;
+}
+
+.polimichevina-first-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.polimichevina-row-item {
+  max-width: 360px;
+}
+
+.polimichevina-row-item .polimichevina-row-item-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25.78px;
+}
+
+.polimichevina-second-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.poimichivina-information {
+  margin-top: 115px;
+  display: flex;
+  flex-direction: row;
+  gap: 52px;
+}
+
+.polimichevina-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 348px;
+}
+
+.polimichevina-list ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.polimichevina-list ul li {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25.78px;
+  gap: 5px;
+}
+
+.polimichevina-cards-first {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.polimichevina-cards-first .polimichevina-cards-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 240px;
+  background-color: #ffffff;
+  transition: background-color 400ms;
+  color: #000000;
+  transition: color 400ms;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid #dadada;
+  text-align: center;
+}
+
+.polimichevina-cards-first .polimichevina-cards-item:hover {
+  background-color: #1f5ea9;
+  transition: background-color 400ms;
+  color: #ffffff;
+  transition: color 400ms;
+}
+
+.polimichevina-cards-item b {
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 72.66px;
+}
+
+.polimichevina-cards-item span {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.13px;
+}
+
+.polimichevina-cards-item p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.2px;
+  margin-top: 10px;
 }
