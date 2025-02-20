@@ -5,11 +5,16 @@ body {
   flex-direction: column;
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #fafafa;
 }
 
 img {
   user-select: none;
   pointer-events: none;
+}
+
+ul {
+  list-style: none;
 }
 
 h1 {
@@ -47,6 +52,13 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 32px;
+}
+
+footer {
+  width: 99.2vw;
+  height: auto;
+  background-color: #555555;
+  color: #ffffff;
 }
 
 .container {
@@ -652,6 +664,7 @@ header {
   margin-top: 120px;
   display: flex;
   flex-direction: column;
+  align-items: start;
 }
 
 .polimichevina-application .applications {
@@ -742,4 +755,137 @@ header {
   font-weight: 400;
   font-size: 15px;
   line-height: 22.5px;
+}
+
+.penopoliuretano-card {
+  margin-top: 40px;
+  width: 100%;
+  height: 303px;
+  max-width: 760px;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+}
+
+.penopoliuretano-list-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 540px;
+}
+
+.penopoliuretano-list-card ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 36px;
+}
+
+.penopoliuretano-list-card ul li {
+  display: flex;
+  align-items: start;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: start;
+  z-index: 1;
+  gap: 5px;
+}
+
+#form {
+  margin-top: 124px;
+}
+
+.form-submit {
+  width: 100%;
+  max-width: 1155px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #1f5ea9;
+  color: #ffffff;
+  padding: 105px 55px;
+  border-radius: 8px;
+  gap: 57px;
+}
+
+.form-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+
+.form-preview p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42.19px;
+  letter-spacing: 0%;
+  max-width: 476px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 454px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-container form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-container form label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+
+.form-container .form-group input {
+  width: 454px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.form-container .checkbox {
+  width: auto;
+  padding: auto;
+}
+
+#partners {
+  margin-top: 120px;
+  width: 100%;
+  max-width: 1155px;
+}
+
+.partners-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22.5px;
+  margin-left: 40px;
+}
+
+.partners .partners-list {
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.partners .partners-list li {
+  width: calc(25% - 10px);
+  margin-bottom: 20px;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1564px;
 }
