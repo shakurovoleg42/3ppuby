@@ -867,7 +867,7 @@ footer {
 
 .partners-title {
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 15px;
   line-height: 22.5px;
   margin-left: 40px;
@@ -894,4 +894,36 @@ footer {
 
 .first-footer-sec {
   display: flex;
+  flex-wrap: wrap;
+  padding: 56px 0 16px 0;
+  text-align: start;
+}
+
+.first-footer-sec .left_side {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-footer-sec .left_side .nav-footer {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  font-size: 15px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.first-footer-sec .left_side .nav-footer ul {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #999999;
+  padding: 0 20px 40px 0;
+}
+
+.first-footer-sec .left_side .nav-footer ul li:hover {
+  color: #ffffff;
 }
