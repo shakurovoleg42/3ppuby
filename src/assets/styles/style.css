@@ -888,4 +888,10 @@ footer {
 .footer-container {
   width: 100%;
   max-width: 1564px;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-footer-sec {
+  display: flex;
 }
