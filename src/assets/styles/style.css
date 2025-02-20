@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  font-family: Roboto, "sans-serif";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 56px;
   line-height: 65.63px;
@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-  font-family: Roboto, "sans-serif";
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 40px;
   line-height: 50.88px;
@@ -365,7 +365,7 @@ header {
 #about {
   margin-top: 85px;
   width: 100%;
-  max-width: 1128px;
+  max-width: 1240px;
 }
 
 .about-content {
@@ -462,6 +462,7 @@ header {
   margin-top: 115px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 52px;
 }
 
@@ -488,7 +489,21 @@ header {
   gap: 5px;
 }
 
+.polimichevina-cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
 .polimichevina-cards-first {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.polimichevina-cards-second {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -535,4 +550,125 @@ header {
   font-size: 18px;
   line-height: 25.2px;
   margin-top: 10px;
+}
+
+.polimichevina-cards-item-big {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 240px;
+  background-color: #ffffff;
+  transition: background-color 400ms;
+  color: #000000;
+  transition: color 400ms;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid #dadada;
+  text-align: center;
+}
+
+.polimichevina-cards-item-big:hover {
+  background-color: #1f5ea9;
+  transition: background-color 400ms;
+  color: #ffffff;
+  transition: color 400ms;
+}
+
+.polimichevina-cards-item-big b {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.13px;
+}
+
+.polimichevina-cards-item-big span {
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 72.66px;
+}
+
+.polimichevina-cards-item-big p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.2px;
+  margin-top: 10px;
+}
+
+.polimichevina-cards-second {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.polimichevina-cards-second .polimichevina-cards-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 240px;
+  background-color: #ffffff;
+  transition: background-color 400ms;
+  color: #000000;
+  transition: color 400ms;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid #dadada;
+  text-align: center;
+}
+
+.polimichevina-cards-second .polimichevina-cards-item:hover {
+  background-color: #1f5ea9;
+  transition: background-color 400ms;
+  color: #ffffff;
+  transition: color 400ms;
+}
+
+.polimichevina-cards-second .polimichevina-cards-item span {
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 72.66px;
+}
+
+.polimichevina-cards-second .polimichevina-cards-item b {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.13px;
+}
+
+.polimichevina-cards-second .polimichevina-cards-item p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.2px;
+  margin-top: 10px;
+}
+
+.polimichevina-application {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.polimichevina-application .applications {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.application-item {
+  display: flex;
+  flex-direction: column;
+  width: 216px;
+}
+
+.application-item span {
+  font-family: "Roboto", sans-serif;
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 25.78px;
+  text-align: start;
 }
