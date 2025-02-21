@@ -1,4 +1,4 @@
-import test from "./modules/test";
+import test from "./modules/test.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   test();
